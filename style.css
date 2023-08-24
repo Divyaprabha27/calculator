@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator {
+    background: #3a4452;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 330px;
+}
+.calculator .screen {
+    width: 100%;
+    height: 60px;
+    background: beige;
+    padding: 7px;
+    color: #000;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.calculator .numpad #equal {
+    width: 140px;
+    margin-right: 0;
+}
+.calculator .screen #result {
+    text-align: right;
+}
+.calculator .numpad button {
+    width: 60px;
+    height: 60px;
+    margin-right: 17px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    box-shadow: -8px -8px 10px rgba(255,255,255,0.1),5px 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+}
+.calculator .numpad button:nth-child(4n) {
+    margin-right: 0;
+}
