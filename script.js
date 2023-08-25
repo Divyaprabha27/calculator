@@ -2,7 +2,7 @@ var erase = document.querySelector("#erase");
 var clear = document.querySelector("#clear");
 var eqaul = document.querySelector("#equal");
 
-var btn_0 = document.querySelector("#zero");
+var btn0 = document.querySelector("#zero");
 var btn00 = document.querySelector("#dzero");
 var btn1 = document.querySelector("#one");
 var btn2 = document.querySelector("#two");
